@@ -52,3 +52,23 @@ ul #home{
     border-bottom:2px solid #222222;
 
 }
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #c5986c;
+}
+footer .contacts-n-address{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0px;
+}
+footer .copyright{
+    background-color: #8a6846;
+    width: auto;
+    text-align: center;
+    padding: 20px 0px;
+}
